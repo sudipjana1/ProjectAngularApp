@@ -1,0 +1,63 @@
+<div id="header">
+  <section class="popular-templates-section">
+    <div class="container-fluid">
+      <div class="popular-templates-title">
+        <h4>Project Management</h4>
+      </div>
+      <div class="popular-templates">
+        <div class="row m-0">
+          <div class="col-10 blue">
+            <!-- <div class="row m-0">
+              <div class="col-md-3 blue">
+                <a [routerLink]="['/add-project']" routerLinkActive="router-link-active">Add Project</a>
+              </div>
+              <div class="col-md-3 blue">
+                <a [routerLink]="['/add-task']">Add Task</a>
+              </div>
+              <div class="col-md-3 blue">
+                <a [routerLink]="['/add-user']">Add User</a>
+              </div>
+              <div class="col-md-3 blue">
+                <a [routerLink]="['/view-task']">View Task</a>
+              </div> -->
+              <div class="row m-0">
+                  <ul class="navbg">
+                    <a [routerLink]="['/add-project']" routerLinkActive="router-link-active">Add Project</a>
+                    <a [routerLink]="['/add-task']">Add Task</a>
+                    <a [routerLink]="['/add-user']">Add User</a>
+                    <a [routerLink]="['/view-task']">View Task</a>
+                  </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<div id="main-content">
+  <div id="sidebar">
+    <!-- <br>
+    <a [routerLink]="['/books']" routerLinkActive="router-link-active" >Books</a>
+    <br>
+    <a [routerLink]="['/book-add']">Add Book</a>   -->
+    <!-- <br>
+    <a [routerLink]="['/add-project']" routerLinkActive="router-link-active" >Add Project</a>
+    <br>
+    <a [routerLink]="['/add-task']">Add Task</a>  
+    <br>
+    <a [routerLink]="['/add-user']">Add User</a>  
+    <br>
+    <a [routerLink]="['/view-task']">View Task</a>   -->
+  </div>
+  <div id="content">
+    <router-outlet></router-outlet>
+    <!-- <app-add-task></app-add-task> -->
+    <!-- <app-add-user></app-add-user> -->
+    <!-- <app-view-task></app-view-task> -->
+
+    <!-- <app-add-project></app-add-project> -->
+
+  </div>
+</div>
+<!-- <div id="footer">Footer</div> -->
